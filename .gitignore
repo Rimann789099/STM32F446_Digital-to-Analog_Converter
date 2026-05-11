@@ -1,0 +1,12 @@
+Debug/
+Release/
+*.bin
+*.elf
+*.hex
+*.map
+
+# IDE specific
+.settings/
+.project
+.cproject
+
