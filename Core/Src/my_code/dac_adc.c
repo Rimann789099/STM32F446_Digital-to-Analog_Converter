@@ -59,7 +59,7 @@ void configure_dac(void){
 
 }
 
-void START_DAC(void){
+void start_dac(void){
 	configure_gpio_for_dac(2);
 	configure_timer6_for_dac();
 	configure_dac();

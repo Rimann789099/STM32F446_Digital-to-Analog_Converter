@@ -34,7 +34,7 @@ int main(void)
 
 	//Enable_SysTick_Interrupt();
 
-	START_DAC();
+	start_dac();
 
 	int Scaler_1024n =2048;
 	int clicked_flag = 0;
